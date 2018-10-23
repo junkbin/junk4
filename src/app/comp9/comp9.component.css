@@ -1,0 +1,16 @@
+.example-icon {
+    padding: 0 14px;
+  }
+  
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+
+  .textify{
+    background:tomato;
+    color:white;
+    font-size: 50px; 
+    height: 200px;
+    margin-bottom:5px; 
+    border-radius:5px;
+  }

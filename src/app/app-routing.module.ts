@@ -20,7 +20,7 @@ const routes: Routes = [
   {path: 'comp7', component: Comp7Component},
   {path: 'comp8', component: Comp8Component},
   {path: 'comp9', component: Comp9Component},
-  {path: '', component: Comp8Component},
+  {path: '', component: Comp9Component},
 ];
 
 @NgModule({
