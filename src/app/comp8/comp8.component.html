@@ -1,8 +1,20 @@
-<mat-toolbar color="primary" class="mat-elevation-z4">
+<mat-toolbar color="primary" class="mat-elevation-z4" style="position:sticky; top:0; z-index:999;">
   <mat-toolbar-row>
-    <span>{{title}}</span>
+    <span matRipple>{{title}}</span>
     <span class="example-spacer"></span>
     <mat-icon class="example-icon">favorite</mat-icon>
     <mat-icon class="example-icon">delete</mat-icon>
   </mat-toolbar-row>
 </mat-toolbar>
+
+
+<div fxLayout="row wrap" fxLayoutAlign="center start">
+  <div fxFlex="50" fxLayout="column">
+    
+    <div class="textify make-center" *ngFor="let item of list">
+      {{item}}
+    </div>
+  
+  </div>
+</div>
+
