@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Comp8Component implements OnInit {
 
+  private title: string = 'Tuesday';
+  private list: string[] = ['1', '2', '3'];
   constructor() { }
 
   ngOnInit() {
