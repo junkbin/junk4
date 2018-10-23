@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Comp4Component implements OnInit {
 
-  list: any = [1, 2];
+  list: any = [1, 2, 3, 4];
 
   constructor() { }
 
