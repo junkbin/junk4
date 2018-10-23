@@ -10,6 +10,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatBadgeModule} from '@angular/material/badge';
 import {MatChipsModule} from '@angular/material/chips';
 import {MatRippleModule} from '@angular/material/core';
+import {MatSidenavModule} from '@angular/material/sidenav';
 
 
 import { AppRoutingModule, RoutingComponents } from './app-routing.module';
@@ -36,7 +37,8 @@ import { Comp7Component } from './comp7/comp7.component';
     MatButtonModule,
     MatBadgeModule,
     MatChipsModule,
-    MatRippleModule
+    MatRippleModule,
+    MatSidenavModule
   ],
   providers: [],
   bootstrap: [AppComponent]
