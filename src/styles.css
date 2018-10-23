@@ -1,8 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~animate.css/animate.min.css';
 
-html, body { height: 100%; }
+html  { 
+    height: 100%;
+    box-sizing: border-box;
+}
 body { 
+    min-height: 100%;
     margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;
     position: relative; 
 }
@@ -21,4 +25,15 @@ body {
     top:0;
     left:0;
     right:0;
+}
+
+.make-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textify{
+    color:white;
+    font-size: xx-large;
 }

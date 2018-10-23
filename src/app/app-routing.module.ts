@@ -32,5 +32,6 @@ export const RoutingComponents = [
     Comp3Component,
     Comp4Component,
     Comp5Component,
-    Comp6Component
+    Comp6Component,
+    Comp7Component
 ];
