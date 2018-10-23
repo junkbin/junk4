@@ -14,7 +14,7 @@ const routes: Routes = [
   {path: 'comp4', component: Comp4Component},
   {path: 'comp5', component: Comp5Component},
   {path: 'comp6', component: Comp6Component},
-  {path: '', component: Comp5Component},
+  {path: '', component: Comp6Component},
 ];
 
 @NgModule({

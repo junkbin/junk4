@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Comp6Component implements OnInit {
 
+  list: any = [1, 2, 3, 5, 6, 7, 8];
   constructor() { }
 
   ngOnInit() {
