@@ -15,13 +15,15 @@ import {MatRippleModule} from '@angular/material/core';
 import { AppRoutingModule, RoutingComponents } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { Comp4Component } from './comp4/comp4.component';
+import { Comp7Component } from './comp7/comp7.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     RoutingComponents,
-    Comp4Component
+    Comp4Component,
+    Comp7Component
   ],
   imports: [
     BrowserModule,

@@ -6,6 +6,7 @@ import { Comp3Component } from './comp3/comp3.component';
 import { Comp4Component } from './comp4/comp4.component';
 import { Comp5Component } from './comp5/comp5.component';
 import { Comp6Component } from './comp6/comp6.component';
+import { Comp7Component } from './comp7/comp7.component';
 
 const routes: Routes = [
   {path: 'comp1', component: Comp1Component},
@@ -14,7 +15,8 @@ const routes: Routes = [
   {path: 'comp4', component: Comp4Component},
   {path: 'comp5', component: Comp5Component},
   {path: 'comp6', component: Comp6Component},
-  {path: '', component: Comp6Component},
+  {path: 'comp7', component: Comp7Component},
+  {path: '', component: Comp7Component},
 ];
 
 @NgModule({
