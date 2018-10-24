@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Comp14Component implements OnInit {
 
+  fxvp = false;
+  mode = 'side';
+
+
   constructor() { }
 
   ngOnInit() {
