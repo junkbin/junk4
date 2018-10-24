@@ -1,3 +1,9 @@
-<p>
-  comp11 works!
-</p>
+<!-- Creates a layout with a left-positioned sidenav and explicit content. -->
+<mat-sidenav-container class="example-container">
+    <mat-sidenav #snav mode="side">Start</mat-sidenav>
+    <mat-sidenav-content >
+      <div fxLayout="row" fxLayoutAlign="center center" style="height:100%;background: royalblue;" class="textify">
+          <button mat-raised-button color="accent" (click)="snav.toggle();">Toggle Side Nav</button>
+      </div>
+    </mat-sidenav-content>
+</mat-sidenav-container>
