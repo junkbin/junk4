@@ -1,6 +1,8 @@
 <!-- Creates a layout with a left-positioned sidenav and explicit content. -->
 <mat-sidenav-container class="example-container">
-    <mat-sidenav #snav mode="side">Start</mat-sidenav>
+    <mat-sidenav #snav mode="side" class="textify">
+      SIDE NAV CONTENT
+    </mat-sidenav>
     <mat-sidenav-content fxLayout="row" fxLayoutAlign="center center" style="height:100%;background: royalblue;" class="textify">
         <button mat-raised-button color="accent" (click)="snav.toggle();">Toggle Side Nav</button>
     </mat-sidenav-content>
