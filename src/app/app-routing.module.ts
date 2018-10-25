@@ -14,6 +14,7 @@ import { Comp11Component } from './comp11/comp11.component';
 import { Comp12Component } from './comp12/comp12.component';
 import { Comp13Component } from './comp13/comp13.component';
 import { Comp14Component } from './comp14/comp14.component';
+import { Comp15Component } from './comp15/comp15.component';
 
 const routes: Routes = [
   {path: 'comp1', component: Comp1Component},
@@ -30,6 +31,7 @@ const routes: Routes = [
   {path: 'comp12', component: Comp12Component},
   {path: 'comp13', component: Comp13Component},
   {path: 'comp14', component: Comp14Component},
+  {path: 'comp15', component: Comp15Component},
   {path: '', component: Comp14Component},
 ];
 
@@ -54,5 +56,6 @@ export const RoutingComponents = [
     Comp11Component,
     Comp12Component,
     Comp13Component,
-    Comp14Component
+    Comp14Component,
+    Comp15Component
 ];
